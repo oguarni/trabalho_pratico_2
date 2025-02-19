@@ -34,7 +34,7 @@ Antes de subir o projeto, copie o arquivo de variáveis de ambiente:
 cp appsmith-backup/data/configuration/docker.env.example appsmith-backup/data/configuration/docker.env
 ```
 
-Caso necessário, edite **`docker.env`** e configure suas credenciais.  
+Caso necessário, edite **docker.env** e configure suas credenciais.  
 
 ---
 
@@ -47,7 +47,7 @@ Agora, rode os serviços do Appsmith e PostgreSQL:
 docker-compose up -d
 ```
 
-👉 **Isso iniciará o Appsmith na porta `8080` e o PostgreSQL na porta `5432`.**  
+👉 **Isso iniciará o Appsmith na porta 8080 e o PostgreSQL na porta 5432.**  
 
 ---
 
