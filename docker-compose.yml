@@ -1,0 +1,31 @@
+version: '3.8'
+
+services:
+  postgres:
+    image: postgres:17
+    container_name: postgres_trabalho
+    restart: always
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: admin
+      POSTGRES_DB: trabalho_pratico
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+
+  appsmith:
+    image: index.docker.io/appsmith/appsmith-ce
+    container_name: appsmith_trabalho
+    restart: always
+    ports:
+      - "8080:80"
+      - "443:443"
+    volumes:
+      - appsmith_data:/appsmith-stacks
+    environment:
+      APPSMITH_MAIL_ENABLED: "false"
+
+volumes:
+  postgres_data:
+  appsmith_data:
