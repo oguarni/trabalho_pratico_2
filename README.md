@@ -64,5 +64,5 @@ docker exec -i postgres_trabalho pg_restore -U postgres -d trabalho_pratico < ap
 
 ---
 
-🚀 **Agora, o projeto está pronto para ser executado!** Se precisar de ajustes, me avise. 🔥
+🚀 **Agora, o projeto está pronto para ser executado!**
 
