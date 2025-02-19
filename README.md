@@ -15,7 +15,7 @@ Este projeto configura um ambiente com **Appsmith** e **PostgreSQL** via **Docke
 
 ## **🚀 Como Rodar o Projeto**  
 
-### **1⃣ Clonar o Repositório**  
+### **1 Clonar o Repositório**  
 Primeiro, faça o clone do repositório e entre na pasta do projeto:  
 
 ```bash
@@ -27,7 +27,7 @@ cd trabalho_pratico_2
 
 ## **📌 Configurar o Ambiente**  
 
-### **2⃣ Copiar o Arquivo de Configuração**  
+### **2 Copiar o Arquivo de Configuração**  
 Antes de subir o projeto, copie o arquivo de variáveis de ambiente:  
 
 ```bash
@@ -40,7 +40,7 @@ Caso necessário, edite **`docker.env`** e configure suas credenciais.
 
 ## **📌 Rodando o Docker**  
 
-### **3⃣ Subir os Containers do Docker**  
+### **3 Subir os Containers do Docker**  
 Agora, rode os serviços do Appsmith e PostgreSQL:  
 
 ```bash
@@ -53,7 +53,7 @@ docker-compose up -d
 
 ## **📌 Restaurar o Banco de Dados**  
 
-### **4⃣ Restaurar o PostgreSQL**  
+### **4 Restaurar o PostgreSQL**  
 Se o banco de dados estiver vazio, restaure os dados usando o backup:  
 
 ```bash
